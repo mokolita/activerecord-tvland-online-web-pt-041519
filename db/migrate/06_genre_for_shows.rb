@@ -1,6 +1,7 @@
-class NameGenreForShows < ActiveRecord::Migration[5.2]
+class GenreForShows < ActiveRecord::Migration[5.2]
 
   def change 
-    a
+    add_column :shows, :genre, :string 
+  end 
 
 end 
